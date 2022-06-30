@@ -1,6 +1,6 @@
 
 def plant(flower_name: str, flower_color: str, flower_quantity: int) -> str:
-    descriptive_flower_string = f"{flower_quantity} {flower_color} {flower_name}"
+    descriptive_flower_string = str(flower_quantity) + " " + flower_color + " " + flower_name
     return descriptive_flower_string
     
 def main():
@@ -21,10 +21,10 @@ def main():
     # TO-DO: ASK USER FOR QUANTITY OF FLOWER TO PLANT, CONVERT TO AN INTEGER AND STORE RESPONSE
 
     # TO-DO: CALL plant() FUNCTION AND PASS ABOVE USER INPUTS; ORDER MATTERS--LOOK AT THE plant() FUNCTION SIGNATURE
-    # BE SURE TO SAVE THE FUNCTION'S OUTPUT WITHIN THE VARIABLE flower_description
+    # BE SURE TO SAVE THE FUNCTION'S OUTPUT WITHIN THE VARIABLE new_flower_description
 
     print()
-    print(f"Now the flowerbed also has {flower_description}. Lovely!")
+    print(f"Now the flowerbed also has {new_flower_description}. Lovely!")
 
 
 if __name__ == "__main__":
