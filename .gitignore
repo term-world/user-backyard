@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Sandbox files
-/sandbox
+sandbox/
