@@ -2,6 +2,7 @@ I've left R2C2--my autonomous tree chopping robot--to do his thing for awhile no
 and I think I *finally* have enough wood for the dream treehouse I've always wanted!
 I've started writing up some schematics for a treehouse that should be *perfect* for the big oak tree in my backyard.
 The measurements I came up with are already in my `treehouse-blueprint.py`.
+(I didn't note it in the blueprint, but all the measurements are in feet.)
 I'm absolutely positive they're perfect and won't need to be adjusted.
 
 When it comes to the treehouse itself, it seems like simple will be best:
@@ -30,6 +31,8 @@ Like, first go about finding the space needed for a window,
 then calculate how much wood the wall will actually need with that amount of space missing.
 That sort of thing.
 
-Once I've got all the correct calculations in place,
-running the `treehouse-blueprint.py` program will upload the schematic to R2B2, my autonomous treehouse building robot.
+Once I've got all the correct calculations in place, and have determined the *total square footage of required wood*,
+running the `treehouse-blueprint.py` program will upload the schematic to R2B2, my autonomous building robot.
 He'll get right to work and put together that treehouse in a jiffy! Can't wait to see the final product!
+
+...Whenever I get around to finishing that `treehouse-blueprint.py`, that is.
