@@ -14,7 +14,7 @@ def area_of_rectangle(width: int, length: int) -> int:
     return area
 
 def area_of_square(): # TO-DO: DETERMINE FUNCTION INPUT & OUTPUT (USE TYPE ANNOTATIONS)
-    area = width * 2
+    area = width * width
     # TO-DO: IMPLEMENT APPROPRIATE RETURN STATEMENT
 
 def area_of_circle(radius: int) -> float:
