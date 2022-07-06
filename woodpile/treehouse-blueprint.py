@@ -17,8 +17,8 @@ def area_of_circle(radius: int) -> float:
 def main():
 
     # DO NOT TOUCH BELOW MEASUREMENTS!
-    north_to_south_length = 15
-    west_to_east_width = 20
+    north_to_south_length = 18
+    west_to_east_width = 24
     wall_height = 7
     window_width = 2
     window_height = 3
@@ -35,6 +35,7 @@ def main():
     # DO NOT TOUCH ANYTHING BELOW THIS LINE!!
 
     # NEED TO IMPLEMENT SCRIPT STEPS (COMPARE SOLUTION, CONVERT BIG-OAK-TREE TO TREEHOUSE)
+    
 
 
 if __name__ == "__main__":
